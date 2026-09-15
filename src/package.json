@@ -1,0 +1,19 @@
+{
+  "name": "chainrescue-cli",
+  "version": "1.0.0",
+  "description": "ChainRescue CLI — Supply Chain Resilience tool for breach detection and re-routing simulation",
+  "main": "cli/index.js",
+  "bin": {
+    "chainrescue": "./cli/index.js"
+  },
+  "scripts": {
+    "simulate": "node cli/index.js simulate",
+    "scan": "node cli/index.js scan-breaches",
+    "list": "node cli/index.js list-shipments"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
