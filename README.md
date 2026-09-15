@@ -76,7 +76,7 @@
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/[bob-ai-hackathon-chainrescue].git
+git clone https://github.com/ZeelGohil8/bob-ai-hackathon-chainrescue.git
 cd [bob-ai-hackathon-chainrescue]
 
 # 2. Install dependencies
