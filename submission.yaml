@@ -33,8 +33,7 @@ submission:
 
   solution_summary: >                  # REQUIRED — 1-3 sentences. What did you build?
     solution_summary: >
-  We built ChainRescue, an AI assistant that tracks supply chain disruptions in real time. It finds alternative routes for stuck shipments, puts idle trucks back to work, and checks temperature sensors
- to protect perishable goods before they spoil.
+  We built ChainRescue, an AI assistant that tracks supply chain disruptions in real time. It finds alternative routes for stuck shipments, puts idle trucks back to work, and checks temperature sensors to protect perishable goods before they spoil.
 
   key_features:                        # REQUIRED — List 3 to 5 specific features you implemented
     - "Real-time disruption monitoring and dynamic re-routing recommendations for affected cargo"                               # e.g., "Real-time pipeline anomaly detection using watsonx.ai"
@@ -69,8 +68,4 @@ submission:
 artifacts:
   source_code: "src/"
   setup_guide: "docs/setup-guide.md"
-  architecture_doc: "docs/architecture.md"
-  demo_video: "demo/demo-video-link.txt"   # URL to hosted video (YouTube, Loom, Box)
-  live_demo: "demo/live-demo-url.txt"      # URL to deployed demo (optional)
-  screenshots: "demo/screenshots/"
-  presentation: "presentation/"
+  presentation: "presentation/slides.pdf"
